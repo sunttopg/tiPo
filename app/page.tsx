@@ -1,5 +1,11 @@
-export default function Page (){
+import {prisma} from '@/lib/db'
+import{Button} from "@/components/ui/button"
+export default function Home (){
   return (
-    <div>test</div>
+  <main className='h-full w-full'>
+    
+
+  </main>
+    
   )
 }
