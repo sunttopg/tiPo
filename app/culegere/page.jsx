@@ -21,7 +21,7 @@ export default function Culegere (){
             <div className="text-2xl font-bold   text-[#374151] pb-6">Instructiuni C++</div>
             <div className=" text-lg   text-[#374151]">Instructiuni: de intrare si iesire, de atribuire, decizionale, repetitive</div>
             <div className="flex justify-end pt-6">
-            <a href="" className="bg-[#7e22ce] text-[#ffffff]  font-bold text-base  p-3 rounded-lg hover:bg-purple-800 active:scale-95 transition-transform transform">Invata</a>
+            <a href="/instructiuni" className="bg-[#7e22ce] text-[#ffffff]  font-bold text-base  p-3 rounded-lg hover:bg-purple-800 active:scale-95 transition-transform transform">Invata</a>
             </div>
         </div>
     </div>
