@@ -8,31 +8,87 @@ export default function LoginPage(){
     const[email,setEmail] = useState('')
     const[password,setPassword]=useState('')
     const router = useRouter()
+    const [user, setUser]=useState(null);
+    const [loading, setLoading] =useState(true);
 
 
     const supabase =createClientComponentClient();
 
+    useEffect (() => {
+        async function getUser(){
+            const {data: {user}}= await supabase.auth.getUser()
+            setUser(user)
+            setLoading(false)
+        }
+        getUser();
+    }, [supabase.auth])
+
     const handleSignUp = async () => {
-        await supabase.auth.signUp({
+        const res =await supabase.auth.signUp({
             email,
             password,
             options: {
                 emailRedirectTo:`${location.origin}/auth/callback`
             }
         })
+        setUser(res.data.user)
         router.refresh();
+        setEmail('')
+        setPassword('')
         
     }
 
     const handleSignIn = async () => {
-        await supabase.auth.signInWithPassword({
+        const res =await supabase.auth.signInWithPassword({
             email,
             password
         })
+        setUser(res.data.user)
         router.refresh();
+        setEmail('')
+        setPassword('')
        
     }
-    
+
+const handleLogout =async () => {
+    await supabase.auth.signOut();
+    router.refresh();
+    setUser(null)
+
+}
+
+console.log({loading, user})
+
+    if(loading){
+        return<h1>Loading...</h1>
+    }
+
+    if(user){
+        return(
+            <div className="h-screen flex flex-col justify-center items-center bg-gray-800">
+            <div className="bg-white dark:bg-gray-900 p-8 rounded-lg shadow-md w-96 text-center">
+                <h1 className="mb-4 text-xl font-bold text-gray-700 dark:text-gray-300">
+                    You are already logged in
+                </h1>
+                <button 
+                    onClick={handleLogout}
+                    className="w-full p-3 rounded-md bg-purple-500 text-white hover:bg-red-600 focus:outline-none"
+                >
+                    Logout
+                </button>
+                <div className= "flex dark:bg-gray-900 w-full p-3"></div>
+
+                <a href="/"
+                    className="  mb-4 w-full p-3 rounded-md bg-purple-500 text-white hover:bg-red-600 focus:outline-none"
+                >
+                    Homepage
+                </a>
+            </div>
+        </div>
+            
+        )
+    }
+
     return(
         <main className="h-screen flex items-center justify-center bg-gray-800 p-6">
             <div className="bg-gray-900 p-8 rounded-lg shadow-md w-96">
