@@ -1,7 +1,7 @@
 export default function Introducere (){
 
     return(
-        <main className=" bg-gray-800 p-6">
+        <main className=" bg-gray-800 p-12">
 
 <div className=" fixed top-0 left-0 flex flex-col h-screen w-[13vw] rounded  bg-purple-600 shadow-lg">
         <div className="text-3xl shadow-lg shadow-purple-800 text-center font-semibold py-4">TiP0</div>
@@ -10,7 +10,7 @@ export default function Introducere (){
         <a href="/intreaba" target="_self" className="text-2xl border-t-2 text-center border-purple-700 py-4 font-semibold shadow-lg shadow-purple-700 hover:bg-purple-800 hover:text-purple-300 transition-colors duration-300 ease-in-out">Intreaba</a>
        
       </div>
-        <div className="bg-white text-black ml-200  ml-[13vw]">     
+        <div className="bg-white rounded-md text-black ml-200  ml-[13vw]">     
             <div className="hero">
                     <p>Un tip de date este o clasificare care dicteaz ce tip de valoare poate lua o variabila si ce operatiuni pot fi efectuate asupra acesteia.Tipuri:</p>
                     <ul className="tipuri">

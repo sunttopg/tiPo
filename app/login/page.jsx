@@ -72,14 +72,14 @@ console.log({loading, user})
                 </h1>
                 <button 
                     onClick={handleLogout}
-                    className="w-full p-3 rounded-md bg-purple-500 text-white hover:bg-red-600 focus:outline-none"
+                    className="w-full p-3 rounded-md bg-purple-500 text-white hover:bg-purple-600 focus:outline-none"
                 >
                     Logout
                 </button>
                 <div className= "flex dark:bg-gray-900 w-full p-3"></div>
 
                 <a href="/"
-                    className="  mb-4 w-full p-3 rounded-md bg-purple-500 text-white hover:bg-red-600 focus:outline-none"
+                    className="  mb-4 w-full p-3 rounded-md bg-purple-500 text-white hover:bg-purple-600s focus:outline-none"
                 >
                     Homepage
                 </a>

@@ -7,58 +7,37 @@ import React, {useState} from 'react'
     const[score, setscore] =useState(0);
     const allQuestions =[
         {
-           text:'operatorul care imparte este?',
+           text:'valoarea lui x in urma structurii: if(x>3){x=x*2; x=x/10}?, stiind ca x=5 este:',
            options:[
-            {answearText: '/', isCorrect:true},
-            {answearText: '+', isCorrect: false},
-            {answearText: '%', isCorrect: false} ,   
+            {answearText: '1', isCorrect:true},
+            {answearText: '0', isCorrect: false},
+            {answearText: '7', isCorrect: false} ,   
             
            ],
 
         },
 
         {
-            text:'27653 % 10 =?',
+            text:'valoarea lui x in urma structurii: if(x%2==0){x--;}?, stiind ca x=271 este:',
             options:[
-             {answearText: '0', isCorrect:false},
-             {answearText: '3', isCorrect: true},
-             {answearText: '1', isCorrect: false} ,   
+             {answearText: '217', isCorrect:false},
+             {answearText: '270', isCorrect: true},
+             {answearText: '271', isCorrect: false} ,   
              
             ],
  
          },
          {
-            text:'echivalentul expresiei i=i+1 este?',
+            text:'a=16 b=64 swap(a,b) =>> a%b=?',
             options:[
-             {answearText: 'x--', isCorrect:false},
-             {answearText: 'x=x-2', isCorrect: false},
-             {answearText: 'x++', isCorrect: true} ,   
+             {answearText: '1', isCorrect:false},
+             {answearText: '4', isCorrect: false},
+             {answearText: '0', isCorrect: true} ,   
              
             ],
  
          },
 
-         {
-            text:'x este un nr de exact 3 cifre adevarata este urm afirmatie:1.x/100!=0 2.x/100!=0&&x/1000==0 3.x%100==0',
-            options:[
-             {answearText: '1', isCorrect:false},
-             {answearText: '2', isCorrect: true},
-             {answearText: '3', isCorrect: false} ,   
-             
-            ],
- 
-         },
-
-         {
-            text:'ca numarul x sa fie cuprins in [a,b}: 1.a<=x||x>=b; 2.a<=x&&x<b; 3.a<=x&&x<=b',
-            options:[
-             {answearText: '1', isCorrect:false},
-             {answearText: '2', isCorrect: false},
-             {answearText: '3', isCorrect: true} ,   
-             
-            ],
- 
-         },
 
     ]
 

@@ -2,7 +2,7 @@ export default function Instructiuni (){
 
     return(
         
-        <main className="bg-gray-800 p-6">
+        <main className="bg-gray-800 p-10">
 
             <nav className="fixed top-0 left-0 flex flex-col h-screen w-[13vw] rounded  bg-purple-600 shadow-lg">
                 <div className="text-6xl bg-purple-600 shadow-lg shadow-purple-800 text-center font-semibold py-6">TiP0</div>
@@ -12,20 +12,20 @@ export default function Instructiuni (){
                 <a herf="/catalog" target="_blank" className="text-2xl bg-purple-700 border-t-2 text-center border-b-2 border-purple-700 py-4 font-semibold shadow-lg shadow-purple-700 hover:bg-purple-800 hover:text-purple-300 transition-colors duration-300 ease-in-out">Catalog</a>
             </nav>
 
-            <div className="text-white ml-200  ml-[13vw] text-lg font-semibold">
+            <div className="text-black bg-white rounded-md ml-200 mt-[0vw] ml-[13vw] text-lg font-semibold text-left">
                 <div>
-                    <h1 className="text-center p-8">Instrucțiuni C++</h1>
-                    <p className="p-3">Instrucțiunile sunt porțiuni bine determinate ale unui program care stabilesc comportamentul programului – ce face acesta. Instrucțiunile se execută secvențial, în ordinea în care apar în program, și au un anumit efect. Fiecare instrucțiune (cu o excepție) se termină cu ;.
+                    <p className="text-left p-4 font-extrabold text-7xl">Instrucțiuni C++</p>
+                    <p className="p-3 font-semibold text-2xl">Instrucțiunile sunt porțiuni bine determinate ale unui program care stabilesc comportamentul programului – ce face acesta. Instrucțiunile se execută secvențial, în ordinea în care apar în program, și au un anumit efect. Fiecare instrucțiune (cu o excepție) se termină cu ;.
                         Se recomandă, deși nu este obligatoriu, ca pe o linie să nu fie mai mult de o instrucțiune, acest lucru sporind lizibilitatea programului. De asemenea, în cazul instrucțiunilor de control, se recomandă ca instrucțiunea subordonată să fie scrisă indentat.
                     </p>
                     <ul className="p-2">
-                        <li className="hover:text-purple-800 mt-[5vw] text-xl"><a class="nav-link" href="#sliniara">Structura liniară</a></li>
-                            <ul className="p-3">
-                                <li>Instrucțiunea expresie</li>
-                                <li>Instrucțiunea declarativă</li>
-                                <li>Instrucțiunea compusă</li>
-                                <li>Instrucțiunea return</li>
-                                <li>Instrucțiunea vidă</li>
+                        <li className="hover:text-purple-800 mt-[5vw] text-3xl font-extrabold"><a class="nav-link" href="#sliniara">Structura liniară</a></li>
+                            <ul className="p-3 font-bold text-xl ">
+                                <li>-Instrucțiunea expresie</li>
+                                <li>-Instrucțiunea declarativă</li>
+                                <li>-Instrucțiunea compusă</li>
+                                <li>-Instrucțiunea return</li>
+                                <li>-Instrucțiunea vidă</li>
                             </ul>
                         <li className="hover:text-purple-800 text-xl "><a class="nav-link" href="#salternative">Structuri alternative</a></li>
                             <ul className="p-3">
