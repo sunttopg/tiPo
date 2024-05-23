@@ -60,7 +60,12 @@ const handleLogout =async () => {
 console.log({loading, user})
 
     if(loading){
-        return<h1>Loading...</h1>
+        return(
+        <main className="bg-gray-800 w-full h-screen text-center p-60">
+            <h1 className="font-bold text-9xl p-36 ">Loading...</h1>
+        </main>
+        
+        )
     }
 
     if(user){
@@ -79,7 +84,7 @@ console.log({loading, user})
                 <div className= "flex dark:bg-gray-900 w-full p-3"></div>
 
                 <a href="/"
-                    className="  mb-4 w-full p-3 rounded-md bg-purple-500 text-white hover:bg-purple-600s focus:outline-none"
+                    className=" w-96 mb-4  p-3 rounded-md bg-purple-500 text-white hover:bg-purple-600 focus:outline-none"
                 >
                     Homepage
                 </a>
