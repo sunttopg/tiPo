@@ -7,59 +7,27 @@ import React, {useState} from 'react'
     const[score, setscore] =useState(0);
     const allQuestions =[
         {
-           text:'operatorul care imparte este?',
+           text:'o functie care nu returneaza nimic este declarata prin?',
            options:[
-            {answearText: '/', isCorrect:true},
-            {answearText: '+', isCorrect: false},
-            {answearText: '%', isCorrect: false} ,   
+            {answearText: 'long', isCorrect:false},
+            {answearText: 'int', isCorrect: false},
+            {answearText: 'void', isCorrect: true} ,   
             
            ],
 
         },
 
         {
-            text:'27653 % 10 =?',
+            text:'o functie care returneaza este declarata prin?',
             options:[
-             {answearText: '0', isCorrect:false},
-             {answearText: '3', isCorrect: true},
-             {answearText: '1', isCorrect: false} ,   
+             {answearText:'double', isCorrect:false},
+             {answearText: 'int', isCorrect: true},
+             {answearText: 'void', isCorrect: false} ,   
              
             ],
  
          },
-         {
-            text:'echivalentul expresiei x=x+1 este?',
-            options:[
-             {answearText: 'x--', isCorrect:false},
-             {answearText: 'x=x-2', isCorrect: false},
-             {answearText: 'x++', isCorrect: true} ,   
-             
-            ],
- 
-         },
-
-         {
-            text:'x este un nr de exact 3 cifre adevarata este urm afirmatie:1.x/100!=0 2.x/100!=0&&x/1000==0 3.x%100==0',
-            options:[
-             {answearText: '1', isCorrect:false},
-             {answearText: '2', isCorrect: true},
-             {answearText: '3', isCorrect: false} ,   
-             
-            ],
- 
-         },
-
-         {
-            text:'ca numarul x sa fie cuprins in [a,b}: 1.a<=x||x>=b; 2.a<=x&&x<b; 3.a<=x&&x<=b',
-            options:[
-             {answearText: '1', isCorrect:false},
-             {answearText: '2', isCorrect: false},
-             {answearText: '3', isCorrect: true} ,   
-             
-            ],
- 
-         },
-
+         
     ]
 
     const handleAnswerOptions = (isCorrect) => {

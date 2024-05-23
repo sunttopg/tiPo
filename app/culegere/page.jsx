@@ -1,7 +1,7 @@
 export default function Culegere (){
     return( <main className="h-screen bg-gray-800 p-6">
     <h1 className="text-6xl text-center font-bold text-white mt-48">Culegere</h1>
-    <h2 className="text-3xl text-center font-bold text-white mt-12 ">Stăpânește Arta Programării în C++: De la Concepte de Bază la Tehnici Avansate</h2>
+    <h2 className=" text-center font-semibold text-gray-600 mt-8 text-lg ">``Stăpânește Arta Programării în C++: De la Concepte de Bază la Tehnici Avansate``</h2>
     <div className="flex items-center justify-center mt-24">
     <div className="flex flex-col rounded-2xl w-96 bg-[#ffffff] shadow-xl">
 

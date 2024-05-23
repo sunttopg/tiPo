@@ -107,7 +107,7 @@ export default function Test(){
                         <div className="text-2xl font-bold   text-[#374151] pb-3">TEST#10</div>
                         <div className=" text-lg   text-[#374151]"></div>
                         <div className="flex justify-end pt-6">
-                            <a href="" className="bg-[#7e22ce] text-[#ffffff]  font-bold text-base  p-3 rounded-lg hover:bg-purple-800 active:scale-95 transition-transform transform">Incepe</a>
+                            <a href="/struct" className="bg-[#7e22ce] text-[#ffffff]  font-bold text-base  p-3 rounded-lg hover:bg-purple-800 active:scale-95 transition-transform transform">Incepe</a>
                         </div>
                     </div>
                 </div>
@@ -118,7 +118,7 @@ export default function Test(){
                         <div className="text-2xl font-bold   text-[#374151] pb-3">TEST#11</div>
                         <div className=" text-lg   text-[#374151]"></div>
                         <div className="flex justify-end pt-6">
-                            <a href="" className="bg-[#7e22ce] text-[#ffffff]  font-bold text-base  p-3 rounded-lg hover:bg-purple-800 active:scale-95 transition-transform transform">Incepe</a>
+                            <a href="/intsivoid" className="bg-[#7e22ce] text-[#ffffff]  font-bold text-base  p-3 rounded-lg hover:bg-purple-800 active:scale-95 transition-transform transform">Incepe</a>
                         </div>
                     </div>
 
