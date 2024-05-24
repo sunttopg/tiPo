@@ -1,3 +1,4 @@
+'use client'
 import Image from 'next/image' ;
 import vectori from '../../public/vectori.png' ;
 import vectorvector from '../../public/vectrovector.png' ;

@@ -1,3 +1,4 @@
+'use client';
 import Image from 'next/image' ;
 import for2 from '../../public/for2.png' ;
 import if2 from '../../public/if2.png' ;

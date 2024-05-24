@@ -1,3 +1,4 @@
+'use client';
 export default function Culegere (){
     return( <main className="h-screen bg-gray-800 p-6">
     <h1 className="text-6xl text-center font-bold text-white mt-48">Culegere</h1>

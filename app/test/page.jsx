@@ -1,3 +1,4 @@
+'use client'
 export default function Test(){
     return(
         <main className="h-screen flex items-center justify-center bg-gray-800 p-6">

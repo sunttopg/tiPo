@@ -1,3 +1,4 @@
+'use client';
 import Image from 'next/image' ;
 import functii from '../../public/functii.png' ;
 import functii2 from '../../public/functii2.png' ;
