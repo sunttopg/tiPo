@@ -52,7 +52,7 @@ export default function Functii (){
                     <h1 className="text-center mt-[3vw] text-purple-800 text-3xl font-extrabold">Functii: void, int</h1>
                     <p className="text-2xl  font-extrabold mt-[3vw] underline decoration-purple-800">Functii void</p>
                     <p className="p-2">Funcțiile void sunt funcții care nu returnează nicio valoare. În general, funcțiile void sunt folosite pentru a efectua operații precum modificarea stării unui obiect, afișarea unor mesaje, sau pentru a schimba valori prin parametrii lor (referințe sau pointeri).</p>
-                    <Image src={functii} alt="/" width={800} height={1000} />
+                    <Image src={functii} alt="/" width={800} height={1000} className='ml-[5vw]' />
                     <p className="text-2xl  font-extrabold mt-[3vw] underline decoration-purple-800">Functii int</p>
                     <p className="p-2">Funcțiile int sunt funcții care returnează o valoare de tip întreg (int). Aceste funcții sunt utilizate atunci când este necesar să se întoarcă un rezultat numeric care poate fi folosit ulterior în program.</p>
                     <Image src={functii2} alt="/" width={800} height={1000} />

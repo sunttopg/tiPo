@@ -235,7 +235,7 @@ export default function Tipuri (){
                     <p className="text-2xl  font-extrabold mt-[3vw] underline decoration-purple-800">Declararea matricelor. Referirea elementelor</p>
                     <p className="p-2">Declararea tablourilor bidimensionale (matrice) face în C/C++ similar cu a tablourilor unidimensionale, dar trebuie precizate două dimensiuni fizice, maximale: numărul maxim de linii și numărul maxim de coloane ale matricei:</p>
                     <p className="p-2 text-xl">tipDeBază denumire[NumarLinii][NumarColoane];</p>
-                    <Image src={matrice2} alt="/" width={1000} height={3000} className="border-4 border-purple-800"/>
+                    <Image src={matrice2} alt="/" width={1000} height={3000} className=" ml-[4vw] border-4 border-purple-800"/>
                     <p className="p-2 text-xl font-extrabold">Exemplu: </p>
                     <p className="text-xl font-extrabold p-4 underline md:underline-offset-4">int A[5][10];</p>
 
